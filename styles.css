@@ -210,6 +210,31 @@ header{
     margin: 50px;
     border-radius: 50px;
   }
-
-
+  body{
+    scroll-behavior: smooth;
+  }
+  .educationimage{
+    height: 700px;
+    width: 400px;
+    border-radius: 50px;
+    margin-left: 100px;
+  }
+  .educationsection{
+    display: flex;
+    background-color: #ffffff31;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+    width: 1500px;
+    margin: 50px;
+    border-radius: 50px;
+  }
+.educationimage:hover{
+  height: 720px;
+  width: 420px;
+  border-radius: 50px;
+  margin-left: 100px;
+  transition-duration: 0.095s;
+}
   
