@@ -55,7 +55,7 @@ header{
     background-color: #ffffff31;
     justify-content: center;
     align-items: center;
-    -ms-flex-direction: row;
+    flex-direction: row;
     height: 500px;
     margin: 50px;
     border-radius: 50px;
@@ -198,16 +198,21 @@ header{
   .button:hover .button_lg::after {
     background-color: #fff;
   }
+  .aboutmetext{
+    margin-left: 50px;
+    margin: 30px;
+  }
+  .aboutmetitle{
+    margin-left: 50px;
+    margin: 30px;
+}
   .aboutmesection{
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff31;
-    justify-content: center;
-    align-items: center;
-    -ms-flex-direction: row;
+    flex-direction: row;
     height: 500px;
     margin: 50px;
     border-radius: 50px;
   }
-  
   
