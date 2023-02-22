@@ -213,6 +213,7 @@ header{
     width: 1500px;
     margin: 50px;
     border-radius: 50px;
+font-family: 'Rajdhani', sans-serif;
   }
   body{
     scroll-behavior: smooth;
@@ -233,6 +234,7 @@ header{
     width: 1500px;
     margin: 50px;
     border-radius: 50px;
+    font-family: 'Genos', sans-serif;
   }
 .educationimage:hover{
   height: 720px;
@@ -254,6 +256,7 @@ header{
     width: 1500px;
     margin: 50px;
     border-radius: 50px;
+    font-family: 'Genos', sans-serif;
   }
   .firstrowlogos{
 width: 1400px;
@@ -286,6 +289,7 @@ justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
   }
   .discordlogo{
     width: 100px;
@@ -400,4 +404,32 @@ justify-content: space-around;
   #socialbutton:hover::before {
     width: 250%;
   }
-  
+  .aboutmeheading{
+    font-size: large;
+    font-family: 'Genos', sans-serif;
+  }
+  .phonenumber{
+    
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        flex-direction: column;
+        width: 900px;
+        height: 380px;
+        border-radius: 50px;
+        background: #e0e0e0a6;
+        box-shadow: 10px 10px 30px #bebebe1c,
+        -20px -20px 60px #ffffff15;
+        margin-left: 325px;
+        margin-top: 180px;
+  }
+  .backhomebutton{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 325px;
+    margin-top: 190px;
+  }
