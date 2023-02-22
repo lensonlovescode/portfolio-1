@@ -11,8 +11,8 @@ body{
     border-radius: 50px;
     flex-direction: column;
     background: #e0e0e0;
-    box-shadow: 10px 10px 30px #bebebe,
-   -20px -20px 60px #ffffff;
+    box-shadow: 10px 10px 30px #bebebe1a,
+   -20px -20px 60px #ffffff0c;
 }
 .navigationimage1:hover{
 width: 285px;
@@ -34,8 +34,8 @@ transition-duration: 0.15s;
     border-radius: 50px;
     flex-direction: column;
     background: #e0e0e0;
-    box-shadow: 10px 10px 30px #bebebe,
-   -20px -20px 60px #ffffff;
+    box-shadow: 10px 10px 30px #bebebe15,
+   -20px -20px 60px #ffffff0e;
 }
 
 header{
@@ -45,9 +45,10 @@ header{
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    background: #d1cdcd9c;
-    box-shadow: 10px 10px 30px #bebebe8c,
-   -20px -20px 60px #ffffff;
+    background: #d1cdcd17;
+    box-shadow: 10px 10px 30px #bebebe17,
+   -20px -20px 60px #ffffff15;
+   color: #c9d3da;
 }
 .navigationdiv{
     display: flex;
@@ -76,9 +77,9 @@ header{
         width: 250px;
         height: 380px;
         border-radius: 50px;
-        background: #e0e0e0;
-        box-shadow: 10px 10px 30px #bebebe,
-       -20px -20px 60px #ffffff;
+        background: #e0e0e028;
+        box-shadow: 10px 10px 30px #bebebe1c,
+       -20px -20px 60px #ffffff15;
 }
 .button {
     -moz-appearance: none;
@@ -237,4 +238,6 @@ header{
   margin-left: 100px;
   transition-duration: 0.095s;
 }
-  
+  body{
+    background-color: #090f14;
+  }
