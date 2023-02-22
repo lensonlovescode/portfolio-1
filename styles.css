@@ -198,21 +198,18 @@ header{
   .button:hover .button_lg::after {
     background-color: #fff;
   }
-  .aboutmetext{
-    margin-left: 50px;
-    margin: 30px;
-  }
   .aboutmetitle{
-    margin-left: 50px;
-    margin: 30px;
-}
-  .aboutmesection{
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff31;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 500px;
+    width: 1500px;
     margin: 50px;
     border-radius: 50px;
   }
+
+
   
