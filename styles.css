@@ -241,3 +241,160 @@ header{
   body{
     background-color: #090f14;
   }
+  footer{
+    display: flex;
+    background-color: #ebebeb31;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 1500px;
+    margin: 50px;
+    border-radius: 50px;
+  }
+  .firstrowlogos{
+width: 1400px;
+height: 230px;
+background-color: #9ac8e700;
+border-radius: 30px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+  }
+  .secondrowlogos{
+    width: 1400px;
+    height: 230px;
+    background-color: #c0ebee00;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+      }
+  .contactlogo1{
+    width: 400px;
+    height: 200px;
+    background-color: #192429ea;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .discordlogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .contactlogo2{
+    width: 400px;
+    height: 200px;
+    background-color: #f118c2fa;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .instagramlogo{
+    width: 100px;
+    height: 100px;
+  }
+  .contactlogo3{
+    width: 400px;
+    height: 200px;
+    background-color: #51b2f3;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .twitterlogo{
+    width: 100px;
+    height: 100px;
+  }
+  .contactlogo4{
+    width: 400px;
+    height: 200px;
+    background-color: #d0ff00;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .numberlogo{
+    width: 100px;
+    height: 100px;
+  }
+  .contactlogo5{
+    width: 400px;
+    height: 200px;
+    background-color: #5ff75afb;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .spotifylogo{
+    width: 100px;
+    height: 100px;
+  }
+  .contactlogo6{
+    width: 400px;
+    height: 200px;
+    background-color: #fcff49ee;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .snapchatlogo{
+    width: 100px;
+    height: 100px;
+  }
+  #socialbutton {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #36d0eb;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+  }
+  
+  #socialbutton:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #70bdca;
+    box-shadow: 4px 5px 17px -4px #268391;
+  }
+  
+  #socialbutton::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2c9caf;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  #socialbutton:hover::before {
+    width: 250%;
+  }
+  
