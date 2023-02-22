@@ -83,6 +83,7 @@ header{
         background: #e0e0e028;
         box-shadow: 10px 10px 30px #bebebe1c,
        -20px -20px 60px #ffffff15;
+       color: #0f192375;
 }
 .button {
     -moz-appearance: none;
