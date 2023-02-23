@@ -1,3 +1,4 @@
+@media
 body{
     background-color: #c9d3da;
     flex-wrap: wrap;
@@ -19,7 +20,7 @@ body{
 .navigationimage1:hover{
 width: 285px;
 height: 385px;
-transition-duration: 0.15s;
+transition-duration: 0.15s ease;
 }
 .navigationimage:hover{
   width: 260px;
@@ -83,7 +84,7 @@ header{
         background: #e0e0e028;
         box-shadow: 10px 10px 30px #bebebe1c,
        -20px -20px 60px #ffffff15;
-       color: #0f192375;
+       color: #0f1923;
 }
 .button {
     -moz-appearance: none;
@@ -434,3 +435,101 @@ justify-content: space-around;
     margin-left: 325px;
     margin-top: 190px;
   }
+  nav {
+    width: 100%;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav .logo {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  nav label.menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav #menu-toggle {
+    display: none;
+  }
+  
+  nav .menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav .menu li {
+    display: inline-block;
+  }
+  
+  nav .menu li a {
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  nav .menu li:hover {
+    background-color: #444;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    nav .logo, nav .menu {
+      display: block;
+      text-align: center;
+    }
+  
+    nav .menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      border-radius: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: none;
+      text-align: center;
+    }
+  
+    nav .menu li {
+      display: block;
+      border-top: 1px solid #555;
+    }
+  
+    nav .menu li:first-child {
+      border-top: none;
+    }
+  
+    nav label.menu-icon {
+      display: block;
+      font-size: 2em;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      color: white;
+    }
+  
+    nav #menu-toggle:checked ~ .menu {
+      display: block;
+    }
+  }
+  
+  nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+    
