@@ -1,6 +1,6 @@
-@media
+
 body{
-    background-color: #c9d3da;
+    background-color: #ffffff;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -53,7 +53,6 @@ header{
     box-shadow: 10px 10px 30px #0e0d0d00,
    -20px -20px 60px #ffffff00;
    color: #fffffff6;
-   border: 2px solid rgb(54, 53, 53);
    background-color: transparent;
 }
 .navigationdiv{
@@ -66,13 +65,8 @@ header{
     height: 500px;
     margin: 50px;
     border-radius: 50px;
-    border: 2px solid rgb(58, 57, 57);
     background-color: transparent;
-}
-.lensonbutton:hover{
-  width: 950px;
-  height: 400px;
-  transition-duration: 1.5s;
+    width: 90%;
 }
 .lensonbutton{
 
@@ -82,7 +76,7 @@ header{
     border-radius: 10px;
     flex-wrap: wrap;
     flex-direction: column;
-        width: 900px;
+        width: 90%;
         height: 380px;
         border-radius: 50px;
         background: #e0e0e028;
